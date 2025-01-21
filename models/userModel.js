@@ -29,7 +29,7 @@ const userSchema = new mongoose.Schema({
         type: Number,
         default : null
     },
-    resetPasswordExpires: {
+    resetPasswordExpiry: {
         type: Date,
         default: null
     }
