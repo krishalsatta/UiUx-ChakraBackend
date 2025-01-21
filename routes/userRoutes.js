@@ -12,7 +12,7 @@ router.post('/login',userController.loginUser)
 router.post ('/forgot_password', userController.forgotPassword)
 
 //verify otp and reset the password
-router.post ('/verify_otp', userController.verifyOtpAndSetPassword)
+router.post ('/verify_otp', userController.verifyOtpAndSetNewPassword)
 
 //profile
 router.get('/profile', userController.getUserProfile);
